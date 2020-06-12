@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="DARUMA株式会社のコーポレートサイトです。だるま株式会社、ダルマ株式会社。DARUMA, Inc." />
+    <title>DARUMA株式会社</title>
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    }
+    .container {
+    }
+    .logo_seen_container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      box-sizing: border-box;
+      opacity: 1;
+      transition: opacity 1000ms ease-out 2500ms;
+      z-index: 2;
+    }
+    .logo_seen {
+      position: absolute;
+      left: 10vw;
+      top: 10vh;
+      width: 80vw;
+      height: 80vh;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      opacity: 0;
+      transition-property: opacity;
+      transition-duration: 500ms;
+      transition-timing-function: ease-out;
+    }
+    .logo_seen1 {
+      background-image: url('/assets/img/logo_seen1.svg');
+      transition-delay: 500ms;
+    }
+    .logo_seen2 {
+      opacity: 0;
+      background-image: url('/assets/img/logo_seen2.svg');
+      transition-delay: 700ms;
+    }
+    .logo_seen3 {
+      background-image: url('/assets/img/logo_seen3.svg');
+      transition-delay: 900ms;
+    }
+    .logo_seen4 {
+      background-image: url('/assets/img/logo_seen4.svg');
+      transition-delay: 1500ms;
+    }
+    @media screen and (max-width:640px) {
+      .logo_seen {
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+    }
+    .homepage {
+      position: relative;
+      width: 100vw;
+      height: 325vw;
+      background-image: url('/assets/img/daruma_web.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      z-index: 1;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo_seen_container" style="display:block;">
+        <div class="logo_seen logo_seen1"></div>
+        <div class="logo_seen logo_seen2"></div>
+        <div class="logo_seen logo_seen3"></div>
+        <div class="logo_seen logo_seen4"></div>
+      </div>
+      <div class="homepage"></div>
+    </div>
+    <script>
+    !(function () {
+      window.onload = function () {
+        var logoSeenContainer = document.querySelector('.logo_seen_container');
+        var logoSeen1 = document.querySelector('.logo_seen1');
+        var logoSeen2 = document.querySelector('.logo_seen2');
+        var logoSeen3 = document.querySelector('.logo_seen3');
+        var logoSeen4 = document.querySelector('.logo_seen4');
+
+        logoSeenContainer.style.opacity = 0;
+        logoSeen1.style.opacity = 1;
+        logoSeen2.style.opacity = 1;
+        logoSeen3.style.opacity = 1;
+        logoSeen4.style.opacity = 1;
+      };
+    })();
+    </script>
+  </body>
+</html>
