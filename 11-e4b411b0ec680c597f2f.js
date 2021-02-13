@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{z0zl:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),c=n.n(a);t.default=function(){return c.a.createElement("section",{id:"footer",className:"bg-white text-center py-4"},c.a.createElement("p",null,c.a.createElement("small",null,"© 2021 DARUMA, Inc.")))}}}]);
+//# sourceMappingURL=11-e4b411b0ec680c597f2f.js.map
