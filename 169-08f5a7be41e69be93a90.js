@@ -1,0 +1,2 @@
+(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[169],{1169:function(e,t,n){"use strict";n.r(t);var c=n(7294);t.default=function(){return c.createElement("section",{id:"footer",className:"bg-white text-center py-4"},c.createElement("p",null,c.createElement("small",null,"© 2021 DARUMA, Inc.")))}}}]);
+//# sourceMappingURL=169-08f5a7be41e69be93a90.js.map
