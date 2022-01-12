@@ -1,0 +1,2 @@
+(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[659],{2645:function(e,t,n){"use strict";n.r(t);var r=n(7294),a=n(5616),c=n(9308);t.default=function(){return r.createElement(a.Z,null,r.createElement(c.Z,{variant:"h1"},"INVITATIONS"),r.createElement(c.Z,null,"複数のINVITATIONを編集するページ"))}}}]);
+//# sourceMappingURL=component---src-pages-invitations-index-js-1a6e1bf4422b2abfd991.js.map

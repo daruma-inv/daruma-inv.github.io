@@ -1,0 +1,2 @@
+(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[765],{5031:function(e,t,n){"use strict";n.r(t);var r=n(7294),a=n(5616),c=n(9308);t.default=function(){return r.createElement(a.Z,null,r.createElement(c.Z,{variant:"h1"},"INVITATION"),r.createElement(c.Z,null,"AAAよりBBB様への案内です"))}}}]);
+//# sourceMappingURL=component---src-pages-invitation-index-js-949c09e42c0135d50c10.js.map
