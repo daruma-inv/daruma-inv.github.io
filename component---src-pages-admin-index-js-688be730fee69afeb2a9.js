@@ -1,2 +1,0 @@
-(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[355],{7415:function(e,t,r){"use strict";r.r(t);var n=r(7294),a=r(9308),c=r(1119);t.default=function(){return n.createElement(c.Z,null,n.createElement(a.Z,{variant:"h6"},"DARUMA ADMIN TOOLS"))}}}]);
-//# sourceMappingURL=component---src-pages-admin-index-js-688be730fee69afeb2a9.js.map

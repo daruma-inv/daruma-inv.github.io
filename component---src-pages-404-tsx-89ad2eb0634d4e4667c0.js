@@ -1,2 +1,0 @@
-(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[218],{938:function(e,t,r){"use strict";r.r(t);var n=r(7294),u=r(5414);t.default=function(){return n.createElement(u.q,null,n.createElement("meta",{"http-equiv":"refresh",content:"0;url=/"}))}}}]);
-//# sourceMappingURL=component---src-pages-404-tsx-89ad2eb0634d4e4667c0.js.map
