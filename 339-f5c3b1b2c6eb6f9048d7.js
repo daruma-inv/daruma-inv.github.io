@@ -1,2 +1,0 @@
-(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[339,610],{5610:function(e,t,n){"use strict";n.r(t);var r=n(7294),c=n(9211),o=n(9308);t.default=function(){return r.createElement(c.Z,{component:"footer",bgcolor:"#fff",py:4},r.createElement(o.Z,{variant:"body2",align:"center",letterSpacing:1},"© 2022 DARUMA, Inc."))}}}]);
-//# sourceMappingURL=339-f5c3b1b2c6eb6f9048d7.js.map
