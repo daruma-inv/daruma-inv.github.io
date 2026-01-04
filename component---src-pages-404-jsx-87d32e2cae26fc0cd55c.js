@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcorporate=self.webpackChunkcorporate||[]).push([[415],{3729:function(e,t,r){r.r(t);var a=r(6540),c=r(8154);t.default=()=>a.createElement(c.m,null,a.createElement("meta",{"http-equiv":"refresh",content:"0;url=/"}))}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-87d32e2cae26fc0cd55c.js.map
